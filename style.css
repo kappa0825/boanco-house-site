@@ -1,0 +1,20 @@
+/* Public information pages for the Google sign-in consent screen, in the app's palette. */
+:root{--ink:#223b33;--muted:#5d6b5c;--green:#355b49;--title:#354d37;--line:#dce4da;--panel:#fafcf8}
+*{box-sizing:border-box}
+body{margin:0;background:#fff;color:var(--ink);font:17px/1.8 -apple-system,BlinkMacSystemFont,"Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;word-break:auto-phrase;text-wrap:pretty}
+header{border-bottom:1px solid #e0e5de}
+.bar,main,footer{max-width:880px;margin:0 auto;padding-left:28px;padding-right:28px}
+.bar{padding-top:18px;padding-bottom:18px}
+.brand{color:var(--title);font-size:20px;font-weight:700;letter-spacing:.06em;text-decoration:none}
+main{padding-top:24px;padding-bottom:32px}
+.panel{border:1px solid var(--line);border-radius:18px;background:var(--panel);padding:8px 28px 24px}
+h1{margin:0;padding:20px 0;border-bottom:1px solid #d8e2d5;color:var(--title);font-size:26px;line-height:1.4;letter-spacing:.03em}
+h2{margin:28px 0 6px;color:var(--title);font-size:20px;line-height:1.5}
+p,li{margin:6px 0}
+ul{margin:6px 0;padding-left:1.3em}
+a{color:var(--green);text-underline-offset:3px}
+.lead{margin-top:20px}
+.note{color:var(--muted);font-size:15px}
+footer{padding-bottom:40px;color:var(--muted);font-size:15px}
+footer a{margin-right:16px}
+@media(max-width:600px){.bar,main,footer{padding-left:12px;padding-right:12px}.panel{border-radius:14px;padding:4px 16px 18px}h1{padding:16px 0;font-size:22px}}
